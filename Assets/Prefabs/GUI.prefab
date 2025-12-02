@@ -191,20 +191,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4786901607844014715, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
+      propertyPath: Priority
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4786901607844014715, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
+      propertyPath: m_Volume
+      value: 0.172
+      objectReference: {fileID: 0}
     - target: {fileID: 4800617535096406300, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
       propertyPath: m_Name
       value: CarnageIndicator
       objectReference: {fileID: 0}
+    - target: {fileID: 4850435727356687021, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
+      propertyPath: m_text
+      value: Test Text Brrrrrrr
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421149647707066256, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.7840002
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1626375584897240210, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 118957934831707650}
   m_SourcePrefab: {fileID: 100100000, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
 --- !u!224 &8489979458636684646 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2230398329600306204, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
   m_PrefabInstance: {fileID: 7719592125596463482}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9057737040103177704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1626375584897240210, guid: 7bfb66c3c96852e4a92ef6a862da3324, type: 3}
+  m_PrefabInstance: {fileID: 7719592125596463482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &118957934831707650
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057737040103177704}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1f10e009f5ccad644aa2d57d338ff402, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1f10e009f5ccad644aa2d57d338ff402, type: 2}
+  - {fileID: 7400000, guid: 0c83db76332a59a499e3c9d36edc2d1c, type: 2}
+  - {fileID: 7400000, guid: 38eee192af79adb43abd77f8cf50a543, type: 2}
+  - {fileID: 7400000, guid: 19f2497d07d151345b12bf8535847211, type: 2}
+  - {fileID: 7400000, guid: 4583cc94e3e2fb548b59fe9eb1bc486e, type: 2}
+  - {fileID: 7400000, guid: 001df269efc3d4445a229d2580ba2b6e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &9027203016978805047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -216,6 +261,30 @@ PrefabInstance:
     - target: {fileID: 1106361062948672228, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
       propertyPath: m_Name
       value: Speedometer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821510435477385569, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.20636533
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821510435477385569, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120.4705
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821510435477385569, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.0559006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613503660223052459, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
+      propertyPath: m_Color.b
+      value: 0.08627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613503660223052459, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
+      propertyPath: m_Color.g
+      value: 0.08627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613503660223052459, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6431373
       objectReference: {fileID: 0}
     - target: {fileID: 4134433678683186402, guid: 4e8a3cff4145ac142a3e8a05d473dc37, type: 3}
       propertyPath: m_Pivot.x
