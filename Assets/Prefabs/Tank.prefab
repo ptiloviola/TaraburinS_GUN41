@@ -49,7 +49,7 @@ MonoBehaviour:
   _workingAudioClip: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
   _engineVolumeInterval: {x: 0.1, y: 0.7}
   _enginePitchInterval: {x: 0.6, y: 1.5}
-  _maxTankSpeed: 127.4
+  _maxTankSpeed: 140
 --- !u!82 &3123485844492370826
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1068,7 +1068,7 @@ MonoBehaviour:
   _downforce: 100
   _slipLimit: 0.3
   _reverseMult: 0.4
-  _maxSpeedFOV: 200
+  _maxSpeedFOV: 148
   _fov: {x: 40, y: 90}
   _debugTorque: 0
 --- !u!114 &1017747623040167882
@@ -1539,7 +1539,7 @@ LineRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5582037479819841615}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
